@@ -1,0 +1,105 @@
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║           QR PHISHING TEST SUITE - GENERATION COMPLETE                       ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+📊 STATISTICS:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Total Test Cases:    285 QR codes
+  Categories:          15 attack vectors
+  Risk Levels:         Critical (115) | High (105) | Medium (45) | Low (20)
+
+📁 GENERATED FILES:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  📂 qr_test_cases/
+  ├── 📄 generate_qr_tests.py          ← Script utama (jalankan ini)
+  ├── 📄 testing_helper.py             ← Helper untuk mencatat hasil
+  ├── 📄 README.md                     ← Dokumentasi lengkap
+  ├── 📁 images/                       ← 285 QR code images
+  │   ├── QR_0001_legit_1.png
+  │   ├── QR_0002_legit_2.png
+  │   └── ... (283 more files)
+  └── 📁 data/
+      ├── test_cases_metadata.json     ← Metadata lengkap
+      ├── test_cases_metadata.csv      ← Format spreadsheet
+      └── generation_report.txt        ← Summary report
+
+🚀 QUICK START:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. INSTALL DEPENDENCIES:
+   $ pip install qrcode[pil]
+
+2. REGENERATE (jika diperlukan):
+   $ python generate_qr_tests.py
+
+3. TESTING MANUAL:
+   - Transfer folder 'images/' ke smartphone
+   - Scan setiap QR dengan aplikasi barcode scanner
+   - Catat perilaku aplikasi
+
+4. CATAT HASIL:
+   $ python testing_helper.py
+
+   # Dalam script:
+   helper.record_test("QR_0001", detected=False, warning=False, 
+                      can_proceed=True, notes="Legitimate URL")
+
+5. GENERATE REPORT:
+   helper.generate_test_report("Nama Aplikasi Scanner")
+
+📋 TEST CATEGORIES:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  ✅ Legitimate URLs        (20)  - Control group
+  ⚠️  URL Shorteners        (30)  - Potentially dangerous
+  🎭 Homograph Attacks      (25)  - Unicode spoofing
+  🌐 IP-Based URLs          (20)  - Suspicious patterns
+  🔴 Suspicious TLDs        (25)  - Free/malicious TLDs
+  📝 Typosquatting          (30)  - Brand impersonation
+  💣 Data URIs              (15)  - Embedded content
+  🔗 Deep Links             (15)  - Intent URLs
+  ⚡ Mixed Content          (15)  - HTTP manipulation
+  📎 Excessive Subdomains   (15)  - Subdomain abuse
+  🔣 Special Characters     (15)  - Character tricks
+  👻 Zero-Width Chars       (10)  - Invisible characters
+  🌏 Punycode               (15)  - IDN encoding
+  🔄 Redirect Chains        (15)  - URL shorteners
+  🔐 Credential Harvesting  (20)  - Fake login pages
+
+🎯 EXPECTED APP BEHAVIOR:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  RISK LEVEL    │ EXPECTED BEHAVIOR
+  ──────────────┼─────────────────────────────────────────────────────────────
+  LOW           │ URL dianggap aman, tidak ada warning
+  MEDIUM        │ Warning ringan atau konfirmasi user
+  HIGH          │ Warning kuat dengan detail ancaman
+  CRITICAL      │ Blokir total atau sangat sulit untuk proceed
+
+📊 EVALUATION METRICS:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  • Detection Rate      : % phishing yang terdeteksi (target: >90%)
+  • False Positive Rate : % safe URL yang salah flag (target: <5%)
+  • Block Rate          : % URL yang berhasil diblokir (target: >85%)
+  • Critical Miss Rate  : % phishing kritis yang lolos (target: <1%)
+
+📖 DOKUMENTASI:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Lihat README.md untuk:
+  • Penjelasan detail mekanisme deteksi QR phishing
+  • Contoh kode implementasi algoritma
+  • Cara kerja aplikasi barcode scanner
+  • Teknik evasi yang diuji
+  • Referensi akademik
+
+⚠️  DISCLAIMER:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  This tool is for ACADEMIC RESEARCH purposes only.
+  Gunakan hanya untuk menguji aplikasi yang Anda miliki atau miliki izin.
+
+📍 OUTPUT LOCATION:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  /mnt/okcomputer/output/qr_test_cases/
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                    Happy Testing & Good Luck with Your Research! 🎓          ║
+╚══════════════════════════════════════════════════════════════════════════════╝

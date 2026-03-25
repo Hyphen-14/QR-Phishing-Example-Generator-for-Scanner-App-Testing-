@@ -1,0 +1,30 @@
+# Virtual Environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Output files (opsional, kalau gak mau ke-push)
+*.log
+*.tmp
+
+# QR generated images (opsional tergantung kebutuhan)
+qr_test_cases/images/
+
+# Data hasil testing (opsional)
+qr_test_cases/data/test_results_*.json
+qr_test_cases/data/test_report_*.txt
