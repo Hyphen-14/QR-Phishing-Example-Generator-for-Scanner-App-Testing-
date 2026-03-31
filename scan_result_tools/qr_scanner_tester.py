@@ -22,7 +22,7 @@ from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 SCANNERS = [
     "iOS Camera (Built-in)",
     "Samsung Camera (Built-in)",
-    "Redmei Camera (Built-in)",
+    "Redmi Camera (Built-in)",
     "Google Lens",
     "Lionic Qr Scanner",
     "QR Scan Shield"   # ganti sesuai kebutuhan
