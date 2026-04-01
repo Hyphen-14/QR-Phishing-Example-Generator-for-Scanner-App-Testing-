@@ -273,9 +273,15 @@ class ScannerTesterApp:
                   command=self._load_csv,
                   bg=BLUE_BTN, fg="white", font=("Arial", 10, "bold"),
                   relief="flat", padx=12, pady=6, cursor="hand2").pack(side="left", padx=5)
-        tk.Button(btn_frame, text="💾 Pilih File Excel Output",
-                  command=self._choose_excel,
+        
+        tk.Button(btn_frame, text="📥 Buka Excel Lama",
+                  command=self._open_existing_excel,
                   bg=GREEN_OK, fg="white", font=("Arial", 10, "bold"),
+                  relief="flat", padx=12, pady=6, cursor="hand2").pack(side="left", padx=5)
+                  
+        tk.Button(btn_frame, text="📄 Buat Excel Baru",
+                  command=self._create_new_excel,
+                  bg=ORANGE, fg="white", font=("Arial", 10, "bold"),
                   relief="flat", padx=12, pady=6, cursor="hand2").pack(side="left", padx=5)
 
         # ─ Status bar
@@ -444,18 +450,35 @@ class ScannerTesterApp:
         messagebox.showinfo("Dataset Dimuat",
                             f"{total} URL berhasil dimuat!\nPhishing: {phish}  |  Safe: {safe}")
 
-    def _choose_excel(self):
+    def _open_existing_excel(self):
+        """Fungsi untuk memilih file Excel yang sudah berisi data (punya teman)"""
+        path = filedialog.askopenfilename(
+            title="Pilih File Excel Lama",
+            filetypes=[("Excel files", "*.xlsx")]
+        )
+        if not path:
+            return
+        self._set_excel_logger(path, is_new=False)
+
+    def _create_new_excel(self):
+        """Fungsi untuk membuat file Excel dari nol (kosong)"""
         path = filedialog.asksaveasfilename(
-            title="Simpan Excel Log",
+            title="Buat File Excel Baru",
             defaultextension=".xlsx",
             filetypes=[("Excel files", "*.xlsx")],
             initialfile="QR_Scanner_Test_Log.xlsx"
         )
         if not path:
             return
+        self._set_excel_logger(path, is_new=True)
+
+    def _set_excel_logger(self, path, is_new):
+        """Fungsi bantuan untuk setup logger dan update UI"""
         self.excel_path = path
-        self.logger     = ExcelLogger(path)
-        self.status_var.set(f"💾 Output Excel: {os.path.basename(path)}")
+        self.logger = ExcelLogger(path)
+        
+        status_teks = "Dibuat" if is_new else "Dibuka (Melanjutkan Data)"
+        self.status_var.set(f"💾 Output Excel {status_teks}: {os.path.basename(path)}")
         messagebox.showinfo("Excel Siap", f"Log akan disimpan ke:\n{path}")
 
     def _show_current(self):
