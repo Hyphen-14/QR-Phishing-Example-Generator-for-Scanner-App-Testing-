@@ -4,7 +4,7 @@ import os
 import time
 
 def tarik_link_aman_live(jumlah_target_tech=30):
-    file_csv = "dataset.csv"
+    file_csv = "dataset(3).csv"
     data_baru = []
 
     print("📡 1. Mengambil link Tech aktif dari Hacker News...")

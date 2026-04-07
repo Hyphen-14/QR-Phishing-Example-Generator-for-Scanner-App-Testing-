@@ -75,7 +75,7 @@ def duga_kategori_serangan(url):
 
 def tarik_live_phishing(jumlah_target=30):
     url_sumber = "https://openphish.com/feed.txt"
-    file_csv = "dataset.csv"
+    file_csv = "dataset(3).csv"
     
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
@@ -116,4 +116,4 @@ def tarik_live_phishing(jumlah_target=30):
 
 
 # Jalankan fungsinya untuk 71 target (sesuai permintaan sebelumnya)
-tarik_live_phishing(71)
+tarik_live_phishing(170)

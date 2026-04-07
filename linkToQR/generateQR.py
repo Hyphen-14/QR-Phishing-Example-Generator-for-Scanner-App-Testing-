@@ -3,10 +3,10 @@ import qrcode
 import os
 import re
 
-def konversi_csv_ke_qr(file_input="dataset.csv"):
+def konversi_csv_ke_qr(file_input="dataset(2).csv"):
     # Nama folder output untuk menyimpan gambar
-    folder_output = "qr_test_cases"
-    file_dataset = "dataset.csv"
+    folder_output = "qr_test_cases(2)"
+    file_dataset = "dataset(2).csv"
 
     # Buat folder output kalau belum ada
     if not os.path.exists(folder_output):
