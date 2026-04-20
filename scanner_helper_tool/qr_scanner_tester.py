@@ -24,8 +24,8 @@ SCANNERS = [
     "Samsung Camera (Built-in)",
     "Redmi Camera (Built-in)",
     "Google Lens",
-    "Lionic Qr Scanner",
-    "QR Scan Shield"   # ganti sesuai kebutuhan
+    "Safe QR Code Reader (Android app)",
+    "QR Scan Shield (iOS app)"   # ganti sesuai kebutuhan
 ]
 
 # ─── Konfigurasi Warna ────────────────────────────────────────────────────
