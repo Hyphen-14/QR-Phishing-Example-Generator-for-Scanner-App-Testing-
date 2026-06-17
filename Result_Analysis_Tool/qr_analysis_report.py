@@ -958,7 +958,7 @@ def build_report(excel_path: str, output_path: str):
 
 # ─── ENTRY POINT ─────────────────────────────────────────────────────────
 if __name__ == "__main__":
-    excel_file  = sys.argv[1] if len(sys.argv) > 1 else "Scanner_Result_Batch(2).xlsx"
+    excel_file  = sys.argv[1] if len(sys.argv) > 1 else "Scanner_Result_1000.xlsx"
     output_file = sys.argv[2] if len(sys.argv) > 2 else \
         f"Laporan_QR_Scanner_{datetime.datetime.now().strftime('%Y%m%d')}.docx"
 

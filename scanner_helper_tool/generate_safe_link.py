@@ -4,7 +4,7 @@ import os
 import time
 
 def tarik_link_aman_live(jumlah_target_tech=30):
-    file_csv = "dataset(3).csv"
+    file_csv = "dataset(5).csv"
     data_baru = []
 
     print("📡 1. Mengambil link Tech aktif dari Hacker News...")
@@ -37,31 +37,31 @@ def tarik_link_aman_live(jumlah_target_tech=30):
     except Exception as e:
         print(f"❌ Gagal ambil dari Hacker News: {e}")
 
-    print("\n📡 2. Mengambil link random dari Wikipedia Indonesia...")
-    try:
-        url_wiki = "https://id.wikipedia.org/api/rest_v1/page/random/summary"
-        link_wiki_terkumpul = 0
+    # print("\n📡 2. Mengambil link random dari Wikipedia Indonesia...")
+    # try:
+    #     url_wiki = "https://id.wikipedia.org/api/rest_v1/page/random/summary"
+    #     link_wiki_terkumpul = 0
 
-        # Looping terus sampai kita dapat 20 link Wikipedia
-        while link_wiki_terkumpul < 20:
-            respon_wiki = requests.get(url_wiki, timeout=5)
+    #     # Looping terus sampai kita dapat 20 link Wikipedia
+    #     while link_wiki_terkumpul < 20:
+    #         respon_wiki = requests.get(url_wiki, timeout=5)
             
-            # Kalau respon dari server adalah 200 (OK/Sukses)
-            if respon_wiki.status_code == 200:
-                data_wiki = respon_wiki.json()
+    #         # Kalau respon dari server adalah 200 (OK/Sukses)
+    #         if respon_wiki.status_code == 200:
+    #             data_wiki = respon_wiki.json()
                 
-                # Menyelusup ke dalam data JSON untuk mengambil URL aslinya
-                link_asli = data_wiki['content_urls']['desktop']['page']
-                data_baru.append([link_asli, "safe", "Live Safe (Wikipedia)"])
+    #             # Menyelusup ke dalam data JSON untuk mengambil URL aslinya
+    #             link_asli = data_wiki['content_urls']['desktop']['page']
+    #             data_baru.append([link_asli, "safe", "Live Safe (Wikipedia)"])
                 
-                link_wiki_terkumpul += 1 # Menambah hitungan
+    #             link_wiki_terkumpul += 1 # Menambah hitungan
                 
-            time.sleep(0.1) # Jeda sopan santun ke server
+    #         time.sleep(0.1) # Jeda sopan santun ke server
 
-        print(f"✅ Dapat 20 link Wikipedia asli!")
+    #     print(f"✅ Dapat 20 link Wikipedia asli!")
 
-    except Exception as e:
-        print(f"❌ Gagal ambil dari Wikipedia: {e}")
+    # except Exception as e:
+    #     print(f"❌ Gagal ambil dari Wikipedia: {e}")
 
     # ─── MENYIMPAN KE DATASET.CSV ───
     if data_baru:
